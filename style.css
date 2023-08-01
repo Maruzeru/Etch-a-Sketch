@@ -1,0 +1,43 @@
+body {
+	font-family: Helvetica, sans-serif;
+	background-color: black;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:0;
+}
+
+.container {
+	display: grid;
+	margin: 0;
+	width: 500px;
+	height: 500px;
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+}
+
+.gridCells {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(29, 29, 29);
+	border: 0;
+	border-color: rgb(255, 0, 0);
+	border-style:solid;
+	user-select: none;
+}
+
+.setup{
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	align-items: center;
+}
+
+label{
+	color: white;
+	font-size: large;
+	margin: 0;
+}
